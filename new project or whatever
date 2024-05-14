@@ -1,0 +1,4 @@
+print ("Hello and welcome to the tip calculator...")
+bill = float(input("How much was your bill? "))
+tip = bill * .17
+amount = int(input("For this amount, you should tip " + "$" + format(tip, '.2f')))
